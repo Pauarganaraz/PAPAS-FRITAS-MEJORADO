@@ -1,0 +1,24 @@
+Algoritmo controladorCalidad
+	
+
+	definir estadoDeConsumoGral Como Entero;
+	estadoDeConsumoGral = 0 
+	escribir "Ingrese estado de consumo Gral optimo opcion 1, y en caso de No Optimo opcion 2";
+	Leer estadoDeConsumoGral
+	
+	escribir " ingrese malas condiciones o estado no optimo opcion 3 , caso contrario ingrese  1";
+	Definir malasCondicionesContenidoNoOptimo Como Entero;
+	malasCondicionesContenidoNoOptimo = 2;
+	Leer malasCondicionesContenidoNoOptimo
+	
+
+	Mientras (( estadoDeConsumoGral <> 1 )   Y (malasCondicionesContenidoNoOptimo <> 1)) Hacer
+
+		
+		escribir " Detenga produccion! :( ";
+		
+		
+	Fin Mientras
+	escribir " Estado Optimo , SIGA LA PRODUCCION !! " ;
+	
+FinAlgoritmo
